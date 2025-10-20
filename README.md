@@ -1,14 +1,12 @@
 # linked-insights-ner: Extracting Job Skills from LinkedIn Postings with spaCy
 
-> **A custom Named Entity Recognition (NER) model built with spaCy to automatically extract professional skills from job postings.**
-
 ---
 
 ## Overview
 
 This is a natural language processing project that uses **spaCy** to detect and extract technical and analytical skills from job descriptions.  
 
-By training a custom NER model, the project converts unstructured text into structured skill data that can power downstream analytics — such as skill co-occurrence networks, salary modeling, and career path recommendations.
+By training a custom Named Entity Recognition (NER) model, the project converts unstructured job description text into structured skill data that can power downstream analytics — such as skill co-occurrence networks, salary modeling, and career path recommendations.
 
 ---
 
@@ -21,7 +19,7 @@ By training a custom NER model, the project converts unstructured text into stru
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 ```
 ├── data/
 │
@@ -34,13 +32,11 @@ By training a custom NER model, the project converts unstructured text into stru
 │ └── ner_skill_model/ # Saved spaCy pipeline
 │
 └── README.md
----
-
 ```
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Category | Tools / Libraries |
 |-----------|-------------------|
@@ -58,6 +54,8 @@ By training a custom NER model, the project converts unstructured text into stru
 * Transfer learning (starting from en_core_web_md or en_core_web_lg) improves recall for real-world phrasing
 * Skill tagging generalizes well to unseen postings after ~500–1000 quality annotations.
 
+---
+
 ## Summary
 
 This project demonstrates:
@@ -67,7 +65,10 @@ This project demonstrates:
 * Turning unstructured text into structured, analyzable skill data
 * Data validation, preparation, and cleaning
 
+---
+
 ## Author
 
 Jennifer Podracky
+
 Data Scientist | Product & Program Analytics
