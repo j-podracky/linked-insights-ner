@@ -1,4 +1,4 @@
-# linked-insights-ner: Extracting Job Skills from Job Postings with spaCy
+# linked-insights-ner: Extracting Skills from Job Postings with spaCy
 
 ---
 
