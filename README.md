@@ -1,4 +1,4 @@
-# linked-insights-ner: Extracting Job Skills from LinkedIn Postings with spaCy
+# linked-insights-ner: Extracting Job Skills from Job Postings with spaCy
 
 ---
 
@@ -40,8 +40,8 @@ By training a custom Named Entity Recognition (NER) model, the project converts 
 
 | Category | Tools / Libraries |
 |-----------|-------------------|
-| **Language Processing** | spaCy (NER, tokenization, model training) |
-| **Data Handling** | pandas, json, regex |
+| **Language Processing** | spaCy (NER, tokenization, model training), scikit-learn |
+| **Data Handling** | pandas, numpy, json, regex |
 | **Evaluation** | spaCy Scorer (precision, recall, F1) |
 | **Visualization** | spaCy displaCy, matplotlib, seaborn |
 
